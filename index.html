@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="аренда авто Грузия, прокат автомобилей Грузия, аренда машины Тбилиси, аренда автомобилей Батуми, аренда авто в аэропорту Грузии, автопрокат Грузия, арендовать машину в Грузии, прокат машин в Грузии без водителя">
+    <meta name="description" content="Аренда авто в Грузии по выгодным ценам. Широкий выбор автомобилей, удобное бронирование онлайн. Прокат машин в Тбилиси, Батуми и других городах с доставкой в аэропорты. Без залога, без скрытых платежей. Забронируйте авто для комфортного путешествия по Грузии!">
+    <meta name="author" content="info@carrents.ge">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Аренда авто в Грузии">
+    <meta property="og:description" content="Прокат машин по доступным ценам в Тбилиси и Батуми. Забронируйте авто онлайн!">
+    <meta property="og:image" content="https://maks-tm.github.io/demo-navbar/image.jpg">
+    <meta property="og:url" content="https://www.carrents.ge/">
+    <link rel="canonical" href="https://www.carrents.ge/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title data-lang="title">Car rental in Georgia. Fast, convenient, high quality and safe with Carrents.ge</title>
+</head>
+
+<body class="home-page">
+    <div class="wrapper">
+        <!-- Header start -->
+        <header class="header" id="header" role="banner">
+            <a href="index.html" class="logo" aria-label="Home page">
+                <img loading="lazy" src="icons/company-logo.avif" alt="Company logo" width="150" height="60">
+            </a>
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <a href="index.html" class="nav-item active" aria-label="Home" accesskey="1">Home</a>
+                <a href="about.html" class="nav-item" aria-label="About us" accesskey="2">About</a>
+                <a href="cars.html" class="nav-item" aria-label="Brands" accesskey="3">Vehicles</a>
+                <!-- Other pages Dropdown -->
+                <div class="dropdown" aria-label="Dropdown menu" aria-haspopup="true">
+                    <button class="dropbtn nav-item" onclick="toggleDropdown()" aria-haspopup="true"
+                        aria-expanded="false" aria-label="More pages">Pages <i class="ri-arrow-down-s-fill dropbtn"></i>
+                    </button>
+                    <div class="dropdown-content" role="menu">
+                        <a href="services.html" role="menuitem" aria-label="Services">Services</a>
+                        <a href="terms.html" role="menuitem" aria-label="Terms and Conditions">Terms and Conditions</a>
+                        <a href="blogs.html" role="menuitem" aria-label="Blogs">Blogs</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item" aria-label="Contact us" accesskey="4">Contact</a>
+                <!-- Login & Register Actions -->
+                <div class="register-box" aria-label="User account actions">
+                    <!-- Languages menu Dropdown -->
+                 <div class="dropdown" aria-label="Dropdown menu" aria-haspopup="true">
+                    <button class="languages-btn nav-item" onclick="toggleDropdown()" aria-haspopup="true"
+                        aria-expanded="false" aria-label="More pages"><span><i class="bi bi-globe2"></i> Languages </span><i class="ri-arrow-down-s-fill dropbtn"></i>
+                    </button>
+                    <div class="dropdown-content" role="menu">
+                        <a href="services.html" role="menuitem" aria-label="Services">Services</a>
+                        <a href="terms.html" role="menuitem" aria-label="Terms and Conditions">Terms and Conditions</a>
+                        <a href="blogs.html" role="menuitem" aria-label="Blogs">Blogs</a>
+                    </div>
+                </div> 
+                </div>
+            </nav>
+            <div class="menubtns-box">
+                <!-- Cart icon with label -->
+                <div class="cartbox">
+                    <a href="#" aria-label="Shopping Cart"><img src="icons/shopping-bag.png" alt=""></a>
+                </div>
+                <!-- Side navigation -->
+                <aside id="mySidenav" class="sidenav" role="complementary" aria-label="User menu">
+                    <header class="sidenav-header">
+                        <i class="ri-user-line" aria-hidden="true"></i>
+                        <button class="closebtn" aria-label="Close navigation" onclick="closeNav()">&times;</button>
+                    </header>
+                    <nav class="sidenav-content" aria-label="User options">
+                        <ul>
+                            <li><a href="#" aria-label="Account settings"><i class="bi bi-person-circle"></i>Account</a></li>
+                            <li><a href="#" aria-label="View orders"><i class="bi bi-activity"></i>My Orders</a></li>
+                            <li><a href="#" aria-label="Adjust settings"><i class="bi bi-heart"></i>Favorites</a></li>
+                            <li><a href="#" aria-label="Adjust settings"><i class="bi bi-gear"></i>Settings</a></li>
+                            <li><a href="#" aria-label="Help and support"><i class="bi bi-question-circle"></i>Get Help</a></li>
+                        </ul>
+                        <ul class="logoutbox">
+                            <li><a href="#" aria-label="Logout"><i class="bi bi-box-arrow-left"></i>Log out</a></li>
+                            <li><a href="login.html" aria-label="Go to login"><i class="ri-arrow-right-s-fill"></i></a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <!-- Toggle button for sidenav -->
+                <button class="openBtn" aria-label="Open navigation" onclick="openNav()">
+                    <!-- <i class="ri-user-line" aria-hidden="true"></i> -->
+                    <img src="icons/user (1).png" alt="">
+                </button>
+                <!-- Main menu button -->
+                <button class="fas fa-bars" id="menu-btn" aria-label="Main menu"></button>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Content start -->
+        <main class="main">
+            <!-- Hero start -->
+            <section>
+                <div class="container">
+                    <h1 style="margin-top: 100px;">Home Page</h1>
+                </div>
+            </section>
+            <!-- Hero end -->
+        </main>
+        <!-- Content end -->
+    </div>
+
+    <!-- Javascript Libs CDN Scripts -->
+     <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <!-- Custom Scripts -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>
